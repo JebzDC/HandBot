@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    background-image: url('/assets/image/dssc_logo_bg.png');
+    background: linear-gradient(to right, rgba(125,125,235));
+    background-color: #cdd6ff;
+    display: flex;
+    background-size: cover; 
+    background-repeat: no-repeat;  
+}
+.SH-cover{
+    display: flex;
+    width: 360px;
+    height: 600px;
+}
+.accountCard{
+    position: absolute;
+    width: 360px;
+    height: 75px;
+    background-color: #800000;
+    
+}
+
+.containerIcon{
+    background-color: white;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+.userIcon{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding-top: 6px;
+    padding-left: 7px;
+}
+
+.username{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 20px;
+    background: none;
+    
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.username:hover{
+    color:rgb(0, 198, 253);
+}
+
+.UserID{
+    color: rgb(176, 176, 176);
+    position: absolute;
+    font-size: 10px;
+    font-family: monospace;
+    font-weight: lighter;
+    margin-left: 80px;
+    margin-top: 40px;
+    letter-spacing: 7px;
+}
+
+.botContainer{
+    width: 71rem;
+    height: 782px;
+    position: absolute;
+    align-items: left;
+    background-color: rgb(255, 255, 255);
+    left: 27%;
+}
+.links{
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    margin-left: 80%;
+    z-index: 1000;
+    margin-top: 2%;
+    
+    
+}
+.logout-link{
+    color: #b6b8b8;
+   
+}
+.logout-link:hover{
+    color: #ffffff;
+   
+}
+.offcanvas {
+    background-color: #f8f9fa; /* Light background for the offcanvas */
+}
+.shutdown{
+    text-decoration: none;
+    background-color: transparent;
+    color: rgb(172, 171, 171);
+}
+.shutdown:hover{
+    color: white;
+}
